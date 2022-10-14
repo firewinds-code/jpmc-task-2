@@ -61,6 +61,7 @@ elem.setAttribute('aggregates', '
                   "top_bid_price":"avg",
                   "timestamp":"distinct count"}');
 
+
   componentDidUpdate() {
     // Everytime the data props is updated, insert the data into Perspective table
     if (this.table) {
